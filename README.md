@@ -1,6 +1,6 @@
 # poc
 
-> A Vue.js project developed by PrinceKumar
+>Vue.js POC application developed by PrinceKumar
 
 ## Build Setup
 
