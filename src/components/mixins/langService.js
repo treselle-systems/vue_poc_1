@@ -10,7 +10,7 @@ export default {
                 update_password_success: 'Your password updated sucessfully',
                 enter_new_password: 'Enter new password',
                 enter_confirm_password: 'Enter confirm password',
-                password_not_match: 'Passwords not match'
+                password_not_match: 'Passwords does not match'
             }
         }
     }
