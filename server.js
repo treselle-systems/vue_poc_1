@@ -132,4 +132,6 @@ app.post('/api/v1/login', function(req, res) {
     });
 });
 
+console.log('server started in 3001 port');
+
 app.listen(3001);

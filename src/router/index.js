@@ -11,11 +11,18 @@ import config from '../config/config'
 Vue.use(VueResource)
 Vue.use(Router)
 
-/*  Below the configuration for application routing to define the path and components */
+/*  Below the configuration for application routing to define the path and components  */
 
 export default new Router({
     routes: [{
         path: '/login',
+        name: 'Login',
+        component: Login,
+        beforeEnter: (to, from, next) => {
+            redirectPath('/home', next)
+        }
+    }, {
+        path: '/',
         name: 'Login',
         component: Login,
         beforeEnter: (to, from, next) => {
